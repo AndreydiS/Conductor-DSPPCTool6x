@@ -11,4 +11,4 @@ Steps to upload new code
   - HelixVolumeControlLite.ino.hex
 - Connect USBToTTL converter to PC and board (double check VCC and GND connection) and check the COM port number
 - Open Command Prompt (not Powershell) go to C:\Temp\Helix and run the following command (update COM port number and path to *avrdude*)
-- "C:\Users\admin\AppData\Local\Arduino15\packages\MiniCore\tools\avrdude\7.2-arduino.1/bin/avrdude" "-Cavrdude.conf" -v -V -patmega328p -curclock -PCOM4 -b115200 -D -xnometadata "-Ueeprom:w:HelixVolumeControlLite.ino.eep:i" "-Uflash:w:HelixVolumeControlLite.ino.hex:i"
+- "C:\Users\admin\AppData\Local\Arduino15\packages\MiniCore\tools\avrdude\8.0-arduino.1/bin/avrdude" "-Cavrdude.conf" -v -V -patmega328p -curclock -PCOM4 -b115200 -D -xnometadata "-Ueeprom:w:HelixVolumeControlLite.ino.eep:i" "-Uflash:w:HelixVolumeControlLite.ino.hex:i"
