@@ -4,6 +4,7 @@ Steps to upload new code
 - Add MiniCore board manager
   - In the Arduino IDE go to File -> Preferences and add the following URL to Additional boards manager:
   - https://mcudude.github.io/MiniCore/package_MCUdude_MiniCore_index.json
+  - Install/Update following this article https://github.com/MCUdude/MiniCore?tab=readme-ov-file#how-to-install
 - Download the following files to a local folder (e.g. C:\Temp\Helix)
   - avrdude.conf
   - HelixVolumeControlLite.ino.eep
