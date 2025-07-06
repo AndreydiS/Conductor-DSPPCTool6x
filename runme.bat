@@ -1,0 +1,1 @@
+"C:\Users\admin\AppData\Local\Arduino15\packages\MiniCore\tools\avrdude\8.0-arduino.1/bin/avrdude" "-Cavrdude.conf" -v -V -patmega328p -curclock -PCOM7 -b115200 -D -xnometadata "-Ueeprom:w:HelixVolumeControlLite.ino.eep:i" "-Uflash:w:HelixVolumeControlLite.ino.hex:i"
